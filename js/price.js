@@ -1,7 +1,7 @@
 let table = document.querySelector(".table");
 let btnHome = document.querySelector(".home");
 btnHome.onclick = () => {
-  location.pathname = "index.html";
+  location.pathname = "/Net/index.html";
 };
 
 createTable();
