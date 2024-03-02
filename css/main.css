@@ -94,6 +94,44 @@ form div > input {
   font-size: 22px;
   padding: 20px;
 }
+.price {
+  display: none;
+}
+.lable {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+}
+.table {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.table > div {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.table .thead {
+  background-color: var(--main-color-200);
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.table div span {
+  width: calc(100% / 4 - 30px);
+}
+.table > div:not(:last-child) {
+  border-bottom: 1px solid gray;
+}
 .footer {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
