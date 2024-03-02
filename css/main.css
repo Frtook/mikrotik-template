@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 main {
-  width: 100%;
   margin: auto;
 }
 input:focus {
@@ -28,7 +27,7 @@ nav {
 }
 .page {
   display: flex;
-  width: 80%;
+  width: 90%;
   margin: 10px auto;
   justify-content: space-between;
   gap: 10px;
@@ -48,7 +47,7 @@ nav {
 form {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   margin: auto;
   gap: 10px;
 }
@@ -58,7 +57,7 @@ form div {
 form div img {
   width: 25px;
   position: absolute;
-  top: 5px;
+  top: 8px;
   left: 8px;
 }
 form div > input {
@@ -109,7 +108,7 @@ form div > input {
   color: black;
   border: none;
   border-radius: 10px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto 20px;
   text-align: center;
 }
@@ -135,7 +134,7 @@ form div > input {
 .footer {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
-  width: 80%;
+  width: 90%;
   margin: auto;
   border-radius: 10px;
   display: flex;
@@ -150,7 +149,7 @@ form div > input {
   --main-color-200: #2196f3;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
   main {
     width: 500px;
   }
