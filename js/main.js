@@ -28,7 +28,7 @@ btnPrice.onclick = () => {
 };
 
 function createTable() {
-  fetch("../data/price.json")
+  fetch("Net/data/price.json")
     .then((res) => res.json())
     .then((data) => {
       data.forEach((e) => {
