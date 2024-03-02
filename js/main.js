@@ -28,7 +28,7 @@ btnPrice.onclick = () => {
 };
 
 function createTable() {
-  fetch("Net/data/price.json")
+  fetch("https://frtook.github.io/Net/data/price.json")
     .then((res) => res.json())
     .then((data) => {
       data.forEach((e) => {
